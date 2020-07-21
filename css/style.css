@@ -3,66 +3,114 @@
 * {
 	box-sizing: border-box;
 }
-h1{
+
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #FFFFFF;
 	text-align: center;
 }
 
-.nav-brand p {
-	
-	margin: 0;
-	color: black;
-	font-size: 40px;
-	
+body {
 
-}
-.navbar-brand{
-	font-size: 40px;
-	line-height: 4px
-}
-.content{
-	width:100%;
-	background-color: grey;
+	background-color: #05386B ;
 
 }
 
-#chicken, #beef ,#sushi{
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.5em;
-}
-
-p{
+p {
 	padding: 10px;
-	color: black;
-}
-section{
-	background-color: grey;
-
-	text-align: center;
+	margin: 0;
 }
 
-.container-fluid{
-	margin: 30px 50px;
-
-
-}
-#chicken-div ,#beef-div{
-	margin-bottom: 30px;
-}
-
-#header-nav{
-	background-color: grey;
-	border-radius:0px;
-
-}
-.navbar-header{
+.container {
+	border: none;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
-#nav-list a{
-	text-align: center;
+
+section {
+	border:	1px solid black;
+	background-color:#5CDB95;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
 	color: black;
+	position: relative;
+	overflow: auto;
 }
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 10px;
+	background-color: #F90202;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 10px;
+	background-color: #F90202;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #F90202;
+	color: white;
+	padding: 10px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -72,15 +120,23 @@ section{
 }
 
 .nav-header {
-  background-color:grey;
+  background-color: #FFFFFF;
 }
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
 .item {
   color: white;
   font-size: 1.2em;
 }
-
-
-
-
-
-
